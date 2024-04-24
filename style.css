@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.link{
+  text-decoration: none;
+ 
+}
+.body {
+  background-color: black;
+}
+.Dark_Mode {
+  color: white;
+  text-align: left;
+  flex-wrap: nowrap;
+  
+  font-size: 16px;
+}
+.Header_Website_Home_page {
+  height: 80px;
+  background-color: #2b3844;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 23px 80px;
+  max-width: 100%;
+
+}
+.header_website_right_h {
+  display: flex;
+  gap: 8px;
+}
+.Luna {
+  width: 20px;
+  height: 20px;
+}
+.search {
+  width: 480px;
+  height: 56px;
+  background-color: #2b3844;
+  margin: 48px 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 5px;
+box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+background: rgb(43, 56, 68);
+padding-left: 17px;
+  
+}
+.search_img {
+  width: 18px;
+  height: 18px;
+  padding-left: 0px;
+}
+.input_main_sec1 {
+  background-color: transparent;
+  width: 138px;
+  height: 22px;
+  border: none;
+}
+.input_main_sec1::placeholder {
+  color: white;
+  font-size: 14px;
+}
+.card_germany_home {
+  width: 264px;
+  height: 336px;
+  background-color: #2b3844;
+  border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.Germany_flag_home_page {
+  width: 100%;
+}
+.Germany_text {
+  width: 77px;
+  height: 26px;
+  font-size: 20px;
+  color: white;
+  margin-left: 24px;
+}
+.Population_Germany{
+    color: white;
+}
+.Region{
+    color: white;
+}
+.Capital{
+    color: white;
+}
+.div_img_german{
+    margin-bottom: 24px;
+}
+.Gerany_text2{
+    margin-top: 16px;
+    margin-left: 24px;
+    row-gap: 8px;
+}
+.stroka1{
+    gap: 75px;
+    justify-content: center;
+    display: flex;
+    padding-right: 80px;
+    
+  
+}
+.card_Amerika_home{
+    width: 264px;
+    height: 336px;
+    background-color:#2b3844;
+    border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.Amerika_text_color{
+    color: white;
+    font-size: 18px;
+    margin: 24px;
+    margin-top: 24px;
+}
+.img_Amerika_card{
+    width: 100%;
+}
+.Population_Amerika{
+    color: white;
+}
+.Region_Amerika{
+    color: white;
+}
+.Capital_Amerika{
+    color: white;
+}
+.text2_Amerika{
+    margin: 24px;
+}
+.Brazil_Home_card{
+    width: 264px;
+    height: 336px;
+    background-color:#2b3844;
+    border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.Brazil_text_font{
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.Brazil_Card_text2{
+    color: white;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+.Iceland_Home_card{
+    width: 264px;
+    height: 336px;
+    background-color:#2b3844;
+    border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+
+.Iceland_text1{
+  color: white;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.Iceland_Card_text2{
+  color: white;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.stroka2{
+  gap: 75px;
+    justify-content: center;
+    display: flex;
+  margin-top: 72px;  
+  padding-bottom: 65px;
+ 
+}
+ 
+.Afganistan_Home_card{
+ 
+  width: 264px;
+  height: 336px;
+  background-color:#2b3844;
+  border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.img_Afganistan{
+  width: 100%;
+}
+.Afganistan_text1{
+  color: white;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.Afganistan_text2{
+  color: white;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.AlanIslands_Home_card{
+  width: 264px;
+  height: 336px;
+  background-color:#2b3844;
+  border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.img_AlanIslands{
+  width: 100%;
+}
+.AlanIslands_text1{
+  color: white;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.AlanIslands_text2{
+  color: white;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+.Albania_Home_card{
+  width: 264px;
+  height: 336px;
+  background-color:#2b3844;
+  border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+.img_Albania{
+  width: 100%;
+}
+ 
+.Algeria_Home_card{
+  width: 264px;
+  height: 336px;
+  background-color:#2b3844;
+  border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(43, 56, 68);
+}
+ 
+.Algeria_text1{
+  color: white;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+
+@media only screen and (max-width: 475px){
+
+section{
+  flex-wrap: wrap;
+}
+
+div{
+  flex-wrap: wrap;
+}
+.Header_Website_Home_page{
+  max-width: 100%;
+  width: 375px;
+  align-items: start;
+  margin: 0 auto;
+  padding: 1px 1px ;
+  width: 475px;
+}
+.header_website_right_h{
+
+  justify-content: start;
+  display: flex;
+ padding-top: 35px;
+ padding-bottom: 35px;
+}
+
+.search{
+  margin: 0 auto;
+width: 343px;
+margin-bottom: 120px;
+margin-top: 26px;
+height: 48px;
+
+}
+.images{
+  width: 137px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  padding-left: 16px;
+}
+.Luna{
+  width: 12px;
+  height: 11px;
+
+}
+.Dark_Mode{
+  width: 64px;
+  height: 15px;
+  margin: 0 auto;
+  font-size: 12px;
+  
+}
+
+}
